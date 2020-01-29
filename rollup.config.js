@@ -5,7 +5,7 @@ import filesize from 'rollup-plugin-filesize'
 import resolve from 'rollup-plugin-node-resolve'
 
 export default {
-  input: 'src/Indicators.vue',
+  input: 'src/app.js',
   output: {
     file: 'dist/status-indicators.js',
     format: 'amd'
