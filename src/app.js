@@ -6,9 +6,10 @@ const appInfo = {
   icon: 'info',
   isFileEditor: false,
   extensions: [],
-  filesListIndicators: [
-    Indicators
-  ]
+  filesListIndicators: [{
+    name: 'indicators',
+    component: Indicators
+  }]
 }
 
 export default {

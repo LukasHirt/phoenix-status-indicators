@@ -19,16 +19,10 @@
   export default {
     name: 'Indicators',
 
-    props: {
-      item: {
-        type: Object,
-        required: true
-      }
-    },
-
     computed: {
       isFolder () {
-        return this.item.type === 'folder'
+        // FIXME: Find a way to receive item as a prop
+        return this.$parent.item.type === 'folder'
       }
     },
 
